@@ -1,7 +1,7 @@
 variable "tenant_name" {
   description = "Nombre del tenant a buscar en el archivo de configuración"
   type        = string
-  default     = "DEFAULT"
+  # default     = "DEFAULT"
 }
 
 variable "compartment_id" {
