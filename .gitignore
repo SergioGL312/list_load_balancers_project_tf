@@ -1,0 +1,40 @@
+# Archivo .gitignore para proyecto Terraform
+
+# Archivos ignorados por Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+**/.terraform.lock.hcl
+
+# Archivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de crash log
+crash.log
+crash.*.log
+
+# Archivos de proveedores
+.terraformrc
+terraform.rc
+
+# Archivos generados localmente
+*.terraform.tfstate.lock.info
+
+# Archivos de entorno
+.env
+.venv
+
+# Archivos de IDE/Editor
+.idea
+.vscode
+*.swp
+*.swo
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
